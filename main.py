@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = os.getenv('BOT_TOKEN')
+TOKEN = "1234567890:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"  # <-- thay bằng token thật
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Chào bạn! Gửi mã đơn + yêu cầu (tăng tốc, bảo hành, hủy, fake) để tôi trả lời.")
